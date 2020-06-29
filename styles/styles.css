@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 80% 10rem;
+    grid-template-rows: 10% 80%;
+    grid-template-areas:
+        "header header"
+        "content sidebar"
+        "footer footer";
+    }
+.id1{
+    grid-area: header;
+    background: rgb(68, 124, 245);
+    padding-top: 2rem;
+}
+.id2{
+    grid-area: content;
+    background: hsl(27, 100%, 50%);
+    padding-top: 15rem;
+}
+.id3{
+    grid-area: sidebar;
+    background: black;
+    color:white;
+    padding-top:15rem;
+}
+.id4{
+    grid-area: footer;
+    background:rgb(68, 124, 245);
+    padding-top: 1rem;
+}
